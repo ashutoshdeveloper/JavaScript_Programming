@@ -4,11 +4,15 @@ const prompt = require('prompt-sync')()
 let age;
 let a;
 do {
-    age =parseInt(prompt('enter your age'))
-
+    age =parseInt(prompt('enter your age: '))
+    
     if(age<18 && age>=0)
     {
         console.log("You are not aligible for driving")
+    }
+    else if(age<0)
+    {
+        console.error('Enetr a Valid age')
     }
     else{
         console.log("You are aligible for driving")
