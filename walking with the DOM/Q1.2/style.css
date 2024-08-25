@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 3rem;
+    background-color: antiquewhite;
+    align-items: center;
+    border: 1px solid black;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
