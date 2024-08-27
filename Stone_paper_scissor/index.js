@@ -8,7 +8,6 @@ if(v1.toLowerCase()==v2.toLowerCase())
 {
     console.log("Match tie")
 }
-
 else{
     if((v1.toLowerCase()=="stone" && v2.toLowerCase()=="paper") ||(v1.toLowerCase()="paper" && v2.toLowerCase()=="scissor") || ((v1.toLowerCase()="scissor" && v2.toLowerCase()=="stone") ))
     {
